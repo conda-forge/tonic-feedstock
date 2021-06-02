@@ -1,5 +1,5 @@
 {% set name = "tonic" %}
-{% set version = "0.3.1" %}
+{% set version = "0.3.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tonic-{{ version }}.tar.gz
-  sha256: 4ac9351d832bee317b459d9b276d9679cd58f63ad47f91af15c1b74633e6eac0
+  sha256: e365b609590bd8a3503c54bc07bdc0180e2ae5f49524910d83c130d3ca336b1b
 
 build:
   number: 0
@@ -27,6 +27,7 @@ requirements:
     - matplotlib-base
     - scipy
     - torchvision
+    - h5py
 
 test:
   imports:

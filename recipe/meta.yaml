@@ -27,6 +27,7 @@ requirements:
     - matplotlib-base
     - scipy
     - torchvision
+    - h5py
 
 test:
   imports:

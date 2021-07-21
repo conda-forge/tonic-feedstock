@@ -11,7 +11,7 @@ source:
   sha256: 803ef284ae0e65609126ac779b1a54bc79aa73ec5839ac6f463b09eadf23f397
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -26,7 +26,6 @@ requirements:
     - tqdm
     - matplotlib-base
     - scipy
-    - torchvision
     - h5py
     - importrosbag
 

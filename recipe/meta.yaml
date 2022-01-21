@@ -29,6 +29,7 @@ requirements:
     - h5py
     - importrosbag
     - typing_extensions
+    - librosa
 
 test:
   imports:

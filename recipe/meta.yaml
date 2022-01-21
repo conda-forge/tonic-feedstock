@@ -1,5 +1,5 @@
 {% set name = "tonic" %}
-{% set version = "1.0.12" %}
+{% set version = "1.0.13" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tonic-{{ version }}.tar.gz
-  sha256: b6cff4ab6db71b3bd1aac5cd175353238b7f30e09c9c70459c5474fdad8a12d7
+  sha256: 4e578fbfeeaf53db808b4ee1ef4a789844e7ae1472c23135f087e0329196dbb3
 
 build:
   number: 0
@@ -29,6 +29,7 @@ requirements:
     - h5py
     - importrosbag
     - typing_extensions
+    - librosa
 
 test:
   imports:

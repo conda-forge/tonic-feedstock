@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - pbr
   run:
     - loris
     - numpy
@@ -30,7 +31,6 @@ requirements:
     - importrosbag
     - typing_extensions
     - librosa
-    - pbr
 
 test:
   imports:

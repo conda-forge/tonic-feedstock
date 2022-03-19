@@ -31,6 +31,7 @@ requirements:
     - importrosbag
     - typing_extensions
     - librosa
+    - pbr
 
 test:
   imports:

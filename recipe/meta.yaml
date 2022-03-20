@@ -1,5 +1,5 @@
 {% set name = "tonic" %}
-{% set version = "1.0.15" %}
+{% set version = "1.0.16" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tonic-{{ version }}.tar.gz
-  sha256: a723e737c09c5c53e1f663928ef398d1aa2fee20d0bf0909be138c79ca04e8a6
+  sha256: 0df8750fa502f32a8e51ff3ead8a521a19f7f96d24883ed02e2084b486a62d97
 
 build:
   number: 0
@@ -19,6 +19,7 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - pbr
   run:
     - loris
     - numpy
@@ -30,6 +31,7 @@ requirements:
     - importrosbag
     - typing_extensions
     - librosa
+    - pbr
 
 test:
   imports:

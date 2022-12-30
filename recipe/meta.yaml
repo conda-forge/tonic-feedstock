@@ -32,6 +32,7 @@ requirements:
     - typing_extensions
     - librosa
     - pbr
+    - expelliarmus
 
 test:
   imports:

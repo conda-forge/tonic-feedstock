@@ -31,6 +31,7 @@ requirements:
     - typing_extensions
     - librosa
     - expelliarmus
+    - aedat
 
 test:
   imports:

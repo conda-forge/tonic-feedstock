@@ -21,7 +21,6 @@ requirements:
     - python >=3.6
     - pbr
   run:
-    - loris
     - numpy
     - python >=3.6
     - tqdm
@@ -31,7 +30,6 @@ requirements:
     - importrosbag
     - typing_extensions
     - librosa
-    - pbr
     - expelliarmus
 
 test:

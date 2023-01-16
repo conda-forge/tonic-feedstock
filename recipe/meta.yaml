@@ -33,6 +33,7 @@ requirements:
     - expelliarmus
     - aedat
     - pbr
+    - torchdata
 
 test:
   imports:

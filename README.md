@@ -1,11 +1,11 @@
-About tonic
-===========
+About tonic-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tonic-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/neuromorphs/tonic
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/tonic-feedstock/blob/main/LICENSE.txt)
 
 Summary: Event-based datasets and transformations based on pyTorch vision.
 

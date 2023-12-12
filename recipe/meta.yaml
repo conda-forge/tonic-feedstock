@@ -1,5 +1,5 @@
 {% set name = "tonic" %}
-{% set version = "1.4.2" %}
+{% set version = "1.4.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tonic-{{ version }}.tar.gz
-  sha256: cde81306b5f0ff39cf4298ffaa3fce220de0c3658aeec08de5735e49956a8897
+  sha256: 8cb4d21263c3767af8642ee005181bde058334714337b2031ca47fe7027811f4
 
 build:
   number: 0

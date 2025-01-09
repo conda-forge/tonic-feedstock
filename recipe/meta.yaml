@@ -20,8 +20,9 @@ requirements:
     - pip
     - python {{ python_min }}
     - pbr
+    - setuptools
   run:
-    - numpy
+    - numpy <2
     - python >={{ python_min }}
     - tqdm
     - matplotlib-base

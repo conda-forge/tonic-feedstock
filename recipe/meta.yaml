@@ -7,22 +7,23 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/tonic-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/tonic-{{ version }}.tar.gz
   sha256: 2ce32849dc63a1f4edda77130e6d87cb411caacc23b7dfc6cc47d48964e14452
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
     - pbr
+    - setuptools
   run:
-    - numpy
-    - python >=3.6
+    - numpy <2
+    - python >={{ python_min }}
     - tqdm
     - matplotlib-base
     - scipy
@@ -43,6 +44,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/neuromorphs/tonic
